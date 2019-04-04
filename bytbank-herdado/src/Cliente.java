@@ -16,6 +16,6 @@ public class Cliente implements Autenticavel {
 
 	@Override
 	public boolean autentica(int senha) {
-		return this.util.autenticador(senha);
+		return this.util.autentica(senha);
 	}
 }
